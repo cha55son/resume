@@ -6,6 +6,7 @@ body {
     background-color: #FFF;
     margin-top: 20px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .container-inner {
@@ -17,7 +18,7 @@ body {
     background-repeat: repeat;
     color: #555;
     text-shadow: 0px 2px 3px #EEE;
-    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0px 11px 0px rgba(0, 0, 0, 0.5);
 }
 
 .page-name h1 {
