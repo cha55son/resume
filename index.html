@@ -8,6 +8,9 @@
         <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="/css/resume.css" />
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/resume.js"></script>
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +33,9 @@
                             <tr>
                                 <td class="contact-label">Email</td>
                                 <td>
-                                    <a href="mailto:chasonchoate@gmail.com" class="contact-info" target="_blank">chasonchoate@gmail.com</a>
+                                    <a href="mailto:chasonchoate@gmail.com" class="contact-info">
+                                        chasonchoate@gmail.com
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
@@ -41,7 +46,7 @@
                             </tr>
                             <tr>
                                 <td class="contact-label">GitHub</td>
-                                <td><a href="http://github.com/cha55son" target="_blank">@cha55son</a></td>
+                                <td><a href="http://github.com/cha55son">@cha55son</a></td>
                             </tr>
                         </table>
                     </div>
@@ -54,39 +59,54 @@
                             <div class="col-lg-6">
                                 <h3 class="summary-title">Education</h3>
                                 <div class="summary-block">
-                                    <h4>
-                                        <a href="http://tntech.edu" target="_blank">Tennessee Technological University</a>
+                                    <h4 class="lead">
+                                        <a href="http://tntech.edu">Tennessee Technological University</a>
                                         <small>2006-2011</small> 
                                     </h4>
                                     <p><em>Bachelor of Science</em>, Computer Science</p>
                                 </div>
                                 <h3 class="summary-title">Noteworthy</h3>
                                 <div class="summary-block">
-                                    <h4>
+                                    <h4 class="lead">
+                                        <span>CSC Advisory Committee Presentation</span>
+                                        <small>May 2011</small> 
+                                    </h4>
+                                    <blockquote>
+                                        I was one of two students invited to present my capstone project, CourseTrack (iOS student curriculum utility), 
+                                        to the Computer Science Advisory Committee at Tennessee Tech shortly before graduation.
+                                    </blockquote>
+                                </div>
+                                <div class="summary-block">
+                                    <h4 class="lead">
                                         <span>TTU Baseball</span>
                                         <small>2006-2010</small> 
                                     </h4>
                                     <p><em>Pitcher</em>, OVC champions two of my four years</p>
+                                    <blockquote>
+                                        I was invited to TTU with a baseball scholarship where I was 
+                                        a starter for two or my fours years on the team.
+                                    </blockquote>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <h3 class="summary-title">Work Experience</h3>
                                 <div class="summary-block">
-                                    <h4>
-                                        <a href="http://bondware.com" target="_blank">Bondware Web Solutions</a>
+                                    <h4 class="lead">
+                                        <a href="http://bondware.com">Bondware Web Solutions</a>
                                         <small>Summer&nbsp; 2011-Present</small> 
                                     </h4>
-                                    <p>Web/Mobile Engineer/System Admin/Manager</p>
+                                    <p>Web/mobile engineer, system admin, manager</p>
                                     <blockquote>
-                                        Some web stuff 
+                                        Originally hired on as a software engineer, I was promoted to lead developer.
+                                        I was also given the opportunity to administrate the company's servers. 
                                     </blockquote>
                                 </div>
                                 <div class="summary-block">
-                                    <h4>
+                                    <h4 class="lead">
                                         <span>Tennessee Technological University</span>
                                         <small>Summer&nbsp; 2010</small> 
                                     </h4>
-                                    <p>Web based project engineer/developer/designer</p>
+                                    <p>Web based project engineer, developer, designer</p>
                                     <blockquote>One of three selected from a class of ~60 students for a summer intership.</blockquote>
                                 </div>
                             </div>
@@ -106,6 +126,60 @@
                 <div class="row">
                     <div class="col-12">
                         <h3 class="summary-title">Selected Portfolio</h3>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="summary-block">
+                                    <h4 class="lead">
+                                        <a href="http://chat.renderosity.com">Renderosity Chat</a>
+                                        <small>Javascript</small> 
+                                    </h4>
+                                    <p>Zero plugin web chat</p>
+                                    <blockquote>One of three selected from a class of ~60 students for a summer intership.</blockquote>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="summary-block">
+                                    <h4 class="lead">
+                                        <a href="http://www.bondware.com/email-marketing-software---connect-cms-616">Connect</a>
+                                        <small>PHP</small> 
+                                    </h4>
+                                    <p>Simple email marketing</p>
+                                    <blockquote>One of three selected from a class of ~60 students for a summer intership.</blockquote>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="summary-block">
+                                    <h4 class="lead">
+                                        <a href="http://www.bondware.com/easy-website-builder---express-cms-615">Express</a>
+                                        <small>jQuery</small> 
+                                    </h4>
+                                    <p>Drag and drop website builder</p>
+                                    <blockquote>One of three selected from a class of ~60 students for a summer intership.</blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-lg-offset-4">
+                                <div class="summary-block">
+                                    <h4 class="lead">
+                                        <span>Solar Commander</span>
+                                        <small>Lua/Mobile</small> 
+                                    </h4>
+                                    <p>iOS/Android </p>
+                                    <blockquote>One of three selected from a class of ~60 students for a summer intership.</blockquote>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="summary-block">
+                                    <h4 class="lead">
+                                        <a href="http://m.renderosity.com">Renderosity Mobile Site</a>
+                                        <small>jQuery Mobile</small> 
+                                    </h4>
+                                    <p>Easy mobile browsing of Renderosity</p>
+                                    <blockquote>One of three selected from a class of ~60 students for a summer intership.</blockquote>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
