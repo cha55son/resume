@@ -14,18 +14,21 @@ body {
     padding: 20px;
 }
 
-.info-card {
-    background-image: url('img/paper-texture.jpg');
+.paper {
+    background-image: url('../img/paper-texture.jpg');
     background-repeat: repeat;
+}
+
+.info-card {
     color: #555;
-    text-shadow: 0px 2px 3px #EEE;
+    text-shadow: 2px 2px 1px #EEE;
     box-shadow: 0 0px 11px 0px rgba(0, 0, 0, 0.5);
 }
 
 .page-name h1 {
     font-size: 65px;
-    margin: 10px;
     margin-left: 10%;
+    margin-top: 22px;
 }
 
 .contact-info-wrapper table {
@@ -65,4 +68,32 @@ body {
 } .summary-block p {
     margin: auto auto 10px 0px;
     font-size: 12px;
+}
+
+.large-quote {
+    font-size: 100px;
+    line-height: 0px;
+    display: inline-block;
+    overflow: visible;
+    color: #BBB;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+} .large-quote.left {
+    margin-bottom: -25px;
+} .large-quote.right {
+    margin-top: 25px;
+    float: right;
+}
+
+.personal-quote {
+    margin-bottom: 0px;
+}
+
+.made-with-love {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0px 11px 0px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    color: #AAA;
+    text-shadow: 2px 2px 0px #FFF;
+    font-weight: bold;
 }
