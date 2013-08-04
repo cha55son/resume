@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+}
+
+.container {
+    width: 940px;
+}
+
+#mug-shot {
+    display: none;
+}
+
+.summary-block {
+    page-break-before: always;
+    page-break-inside: avoid;
+}
