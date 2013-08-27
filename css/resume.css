@@ -78,15 +78,18 @@ body {
     overflow: visible;
     color: #DDD;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    position: absolute;
 } .large-quote.left {
-    margin-bottom: -25px;
+    top: 45px;
+    left: 10px;
 } .large-quote.right {
-    margin-top: 25px;
-    float: right;
+    bottom: 0px; 
+    right: 10px;
 }
 
 .personal-quote {
     margin-bottom: 0px;
+    position: relative;
 }
 
 .made-with-love {
